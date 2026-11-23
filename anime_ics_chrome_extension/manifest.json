@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Anime ICS Provider Search",
+  "version": "1.22.0",
+  "description": "Search anime shows and export weekly bookmarks using clipboard data.",
+  "minimum_chrome_version": "109",
+  "permissions": [
+    "clipboardRead",
+    "clipboardWrite",
+    "downloads",
+    "scripting",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://www.google.com/*",
+    "https://consent.google.com/*",
+    "https://*.bing.com/*",
+    "https://*.duckduckgo.com/*",
+    "https://search.yahoo.com/*"
+  ],
+  "icons": {
+    "128": "icon.png"
+  },
+  "action": {
+    "default_title": "Search or export Anime ICS clipboard data",
+    "default_icon": {
+      "128": "icon.png"
+    },
+    "default_popup": "popup.html"
+  }
+}

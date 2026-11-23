@@ -1,0 +1,89 @@
+[
+  {
+    "name": "Adult Swim",
+    "url": "https://www.adultswim.com/",
+    "id": "AS"
+  },
+  {
+    "name": "Bandai Channel",
+    "url": "https://www.b-ch.com/",
+    "id": "BC"
+  },
+  {
+    "name": "Bilibili TV",
+    "url": "https://www.bilibili.tv/",
+    "id": "BB"
+  },
+  {
+    "name": "Crunchyroll",
+    "url": "https://www.crunchyroll.com/",
+    "searchPath": "/search",
+    "queryParam": "q",
+    "id": "CR",
+    "primeChannel": true,
+    "youtubeChannel": true
+  },
+  {
+    "name": "Disney+",
+    "url": "https://www.disneyplus.com/",
+    "id": "DP"
+  },
+  {
+    "name": "HIDIVE",
+    "url": "https://www.hidive.com/",
+    "searchPath": "/search",
+    "queryParam": "q",
+    "searchScope": "www.hidive.com/season",
+    "resultPathPrefix": "/season/",
+    "id": "HD",
+    "primeChannel": true
+  },
+  {
+    "name": "Hulu",
+    "url": "https://www.hulu.com/",
+    "id": "HU"
+  },
+  {
+    "name": "iQ",
+    "url": "https://www.iq.com/",
+    "searchPath": "/search",
+    "queryParam": "query",
+    "id": "IQ"
+  },
+  {
+    "name": "Laftel",
+    "url": "https://laftel.net/",
+    "searchPath": "/search",
+    "queryParam": "keyword",
+    "id": "LF"
+  },
+  {
+    "name": "Netflix",
+    "url": "https://www.netflix.com/",
+    "id": "NF"
+  },
+  {
+    "name": "OceanVeil",
+    "url": "https://oceanveil.net/",
+    "id": "OV"
+  },
+  {
+    "name": "Prime Video",
+    "url": "https://www.primevideo.com/",
+    "searchPath": "/search/",
+    "queryParam": "phrase",
+    "id": "PV"
+  },
+  {
+    "name": "Viki",
+    "url": "https://www.viki.com/",
+    "id": "VK"
+  },
+  {
+    "name": "YouTube",
+    "url": "https://www.youtube.com/",
+    "searchPath": "/results",
+    "queryParam": "search_query",
+    "id": "YT"
+  }
+]

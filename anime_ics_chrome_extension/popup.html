@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Anime calendar clipboard search</title>
+    <style>
+      :root { color-scheme: light dark; }
+      html { min-width: 250px; background: transparent; }
+      body { min-width: 250px; max-width: 330px; margin: 0; padding: 8px; overflow: auto; border: 1px solid; border-radius: 8px; box-shadow: 0 4px 14px rgb(0 0 0 / 22%); font: 13px Arial, sans-serif; color: CanvasText; background: Canvas; }
+      #status { margin: 0; padding: 5px 8px 4px; font-size: 12px; font-weight: 600; }
+      section { margin: 4px 0 8px; }
+      h2 { margin: 5px 8px; font-size: 12px; }
+      #channels { display: grid; gap: 3px; }
+      .channel-group { padding: 4px 8px; }
+      .channel-group strong { display: block; margin-bottom: 3px; font-size: 12px; }
+      label { display: flex; gap: 7px; align-items: center; min-height: 23px; cursor: pointer; }
+      button { width: 100%; min-height: 28px; margin: 2px 0; border: 0; border-radius: 4px; padding: 5px 8px; text-align: left; cursor: pointer; color: inherit; background: transparent; font: inherit; }
+      button:hover, button:focus-visible { color: HighlightText; background: Highlight; outline: none; }
+      @media (prefers-color-scheme: dark) { body { border-color: #45464a; background: #292a2d; color: #e8eaed; } button:hover, button:focus-visible { background: #3c4043; color: #fff; } }
+      @media (prefers-color-scheme: light) { body { border-color: #dadce0; background: #fff; color: #202124; } button:hover, button:focus-visible { background: #e8eaed; color: #202124; } }
+    </style>
+    <script src="popup.js" defer></script>
+  </head>
+  <body>
+    <section aria-label="Channel preferences"><h2>Channel preferences</h2><div id="channels"></div></section>
+    <p id="status" role="status">Checking clipboard…</p>
+    <section id="provider-section" aria-label="Search options" hidden><h2 id="providers-heading">Search options</h2><div id="providers"></div></section>
+  </body>
+</html>
